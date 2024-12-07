@@ -8,6 +8,7 @@ export default {
     extend: {
       screens: {
         mobile: '280px', 
+        'max-tablet': { max: '1023px' }
       },
       fontFamily: {
         raleway: ['Raleway', 'sans-serif'],

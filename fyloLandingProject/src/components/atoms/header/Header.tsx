@@ -7,9 +7,9 @@ const Header = () => {
         </div>
         <div>
             <ul className='flex justify-between md:w-[206px] mobile:w-[140px]'>
-                <li className="font-raleway text-[#07043B] capitalize mobile:text-[12px] md:text-[16px]">Features</li>
-                <li className="font-raleway text-[#07043B] capitalize mobile:text-[12px] md:text-[16px]">Team</li>
-                <li className="font-raleway text-[#07043B] capitalize mobile:text-[12px] md:text-[16px]">Sign In</li>
+                <li className="font-raleway text-[#07043B] cursor-pointer capitalize mobile:text-[12px] md:text-[16px]">Features</li>
+                <li className="font-raleway text-[#07043B] cursor-pointer capitalize mobile:text-[12px] md:text-[16px]">Team</li>
+                <li className="font-raleway text-[#07043B] cursor-pointer capitalize mobile:text-[12px] md:text-[16px]">Sign In</li>
             </ul>            
         </div>
     </div>

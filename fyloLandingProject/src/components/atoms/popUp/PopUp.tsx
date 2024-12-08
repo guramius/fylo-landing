@@ -11,7 +11,7 @@ const PopUp = () => {
     
   return (
     <div className='relative'>
-        <div className='flex items-center underline decoration-[#3DA08F]'>
+        <div className='flex items-center underline max-tablet:justify-center decoration-[#3DA08F]'>
             <button onClick={handlerClick} className='text-[#3DA08F]'>
                 See how Fylo works
             </button>
@@ -33,24 +33,27 @@ const PopUp = () => {
                 </defs>
             </svg>
         </div>
-        {active &&
-            <div className='absolute px-[32px] py-[32px] w-[356px] mt-[45px] bg-white shadow-[0px_0px_10px_5px_rgba(56,56,56,0.05)]'>
-                <img src={Drop} alt="drop" />
-                <p className='text-[13px] mt-[16px] mb-[16px] text-[#07043B]'>
-                    Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
-                </p>
-                <div className='flex gap-2'>
-                    <div>
-                        <img src={Avatar} alt="avatar icone" />
-                    </div>
-                    <div>
-                        <p className='font-bold text-[#07043B] text-[11px]'>Kyle Burton</p>
-                        <p className='text-[#07043B] text-[8px]'>Founder & CEO, Huddle</p>
+        
+            {active &&
+               <div className=' max-tablet:text-center max-tablet:text-[24px]'>
+                <div className='absolute px-[32px] py-[32px] w-[356px] mt-[45px] bg-white shadow-[0px_0px_10px_5px_rgba(56,56,56,0.05)]'>
+                    <img src={Drop} alt="drop" />
+                    <p className='text-[13px] mt-[16px] mb-[16px] text-[#07043B]'>
+                        Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+                    </p>
+                    <div className='flex gap-2'>
+                        <div>
+                            <img src={Avatar} alt="avatar icone" />
+                        </div>
+                        <div>
+                            <p className='font-bold text-[#07043B] text-[11px]'>Kyle Burton</p>
+                            <p className='text-[#07043B] text-[8px]'>Founder & CEO, Huddle</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        }
-    </div>
+            </div>    
+            }
+        </div>
   )
 }
 

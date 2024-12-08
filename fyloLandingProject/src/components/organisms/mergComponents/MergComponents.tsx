@@ -7,12 +7,12 @@ import SectionMerg from "../../molecules/sectionMerg/SectionMerg"
 
 const MergComponents = () => {
   return (
-    <div className=" h-[2500px]">
-      <div className="mobile:px-[24px] md:px-[80px] mobile:pt-[24px] md:pt-[64px]">
+    <div>
+      <div className="max-tablet:px-[24px] max-tablet:pt-[24px] px-[80px] pt-[64px]">
         <Header/>
         <SectionMerg/>
-        <ProductiveSection/>
       </div>
+      <ProductiveSection/>
       <GetAccess/>
       <Footer/>
     </div>

@@ -2,10 +2,10 @@ import WhiteLogo from '../../images/whiteLogo.png'
 
 const Footer = () => {
   return (
-    <div className='flex justify-between items-baseline pt-[80px] pr-[200px] pb-[86px] pl-[80px] bg-[#07043B] text-white'>
+    <div className='flex justify-between pt-[80px] pr-[200px] pb-[86px] pl-[80px] items-baseline max-tablet:flex-col  bg-[#07043B] max-tablet:pl-[40px] max-tablet:pr-[0px] text-white'>
       <div>
         <img src={WhiteLogo} />
-        <p className='flex items-center gap-[5px] hover:text-[#6C9BFF] cursor-pointer transition duration-300 ease-in-out '>
+        <p className='flex items-center gap-[5px] mt-[37px] mb-[16px] hover:text-[#6C9BFF] cursor-pointer transition duration-300 ease-in-out '>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M20 15.5C18.8 15.5 17.6 15.3 16.4 14.9C16.1 14.8 15.7 14.9 15.4 15.1L13.2 17.3C10.4 15.9 8.1 13.5 6.6 10.7L8.8 8.5C9.1 8.2 9.2 7.8 9 7.5C8.7 6.4 8.5 5.2 8.5 4C8.5 3.4 8.1 3 7.5 3H4C3.4 3 3 3.4 3 4C3 13.4 10.6 21 20 21C20.6 21 21 20.6 21 20V16.5C21 15.9 20.6 15.5 20 15.5ZM19 12H21C21 7 17 3 12 3V5C15.9 5 19 8.1 19 12ZM15 12H17C17 9.2 14.8 7 12 7V9C13.7 9 15 10.3 15 12Z" fill="white"/>
           </svg>
@@ -18,7 +18,7 @@ const Footer = () => {
           example@fylo.com
         </p>
       </div>
-      <div className='flex gap-[200px]'>
+      <div className='flex gap-[200px] max-tablet:flex-col max-tablet:gap-8'>
         <div>
           <p className='hover:text-[#6C9BFF] cursor-pointer transition duration-300 ease-in-out'>About Us</p>
           <p className='hover:text-[#6C9BFF] cursor-pointer transition duration-300 ease-in-out'>Jobs</p>
@@ -31,16 +31,19 @@ const Footer = () => {
           <p className='hover:text-[#6C9BFF] cursor-pointer transition duration-300 ease-in-out'>Privacy</p>
         </div>
       </div>
-      <div className='flex'>
-      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" fill='none' width="31" height="31" viewBox="0 0 50 50">
-    <path d="M25,2C12.318,2,2,12.317,2,25s10.318,23,23,23c12.683,0,23-10.317,23-23S37.683,2,25,2z M32,16h-3.29 C26.772,16,26,16.455,26,17.806V21h6l-1,5h-5v13h-6V26h-3v-5h3v-2.774C20,14.001,21.686,11,26.581,11C29.203,11,32,12,32,12V16z"stroke="#ffffff"></path>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="31" height="31" viewBox="0,0,300,150"
-className="fill:#ffffff;">
-<g fill="#ffffff" fill-rule="nonzero"  stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" className="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.6907,0 -23,10.3093 -23,23c0,12.69071 10.3093,23 23,23c12.69071,0 23,-10.30929 23,-23c0,-12.6907 -10.30929,-23 -23,-23zM25,4c11.60982,0 21,9.39018 21,21c0,11.60982 -9.39018,21 -21,21c-11.60982,0 -21,-9.39018 -21,-21c0,-11.60982 9.39018,-21 21,-21zM30.69336,14.05859c-3.60031,0 -6.54102,2.93958 -6.54102,6.53906c0,0.0253 0.00751,0.04896 0.00781,0.07422c-3.81409,-0.50757 -7.18808,-2.39053 -9.50586,-5.23242c-0.20741,-0.254 -0.52616,-0.39018 -0.85308,-0.36447c-0.32692,0.02572 -0.62045,0.21007 -0.7856,0.49337c-0.56289,0.96765 -0.88477,2.09541 -0.88477,3.28906c0,1.06217 0.2959,2.0489 0.74805,2.93945c-0.46159,0.09772 -0.79209,0.50475 -0.79297,0.97656v0.07031c0,1.93403 0.90503,3.60904 2.24609,4.80859c-0.27505,0.26429 -0.37581,0.66202 -0.25976,1.02539c0.55844,1.73693 1.86014,3.09674 3.49023,3.86328c-1.30409,0.60998 -2.70141,1.04688 -4.24219,1.04688c-0.4108,0 -0.81012,-0.02335 -1.20117,-0.07031c-0.46347,-0.05613 -0.90412,0.21586 -1.06168,0.65533c-0.15755,0.43947 0.00991,0.92948 0.40347,1.18061c2.60447,1.6711 5.70586,2.64648 9.0293,2.64648c5.37065,0 9.61567,-2.25613 12.45313,-5.47461c2.83745,-3.21848 4.31055,-7.37231 4.31055,-11.28516c0,-0.11751 -0.00541,-0.22994 -0.00781,-0.3457c0.97384,-0.78179 1.88973,-1.64409 2.58398,-2.68359c0.23504,-0.35175 0.22334,-0.81333 -0.02923,-1.15271c-0.25256,-0.33938 -0.69135,-0.48314 -1.09577,-0.35901c0.16163,-0.31458 0.39041,-0.58769 0.5,-0.92969c0.12647,-0.39526 -0.0043,-0.82756 -0.32866,-1.08644c-0.32436,-0.25888 -0.7749,-0.29054 -1.13228,-0.07957c-0.87459,0.51821 -1.8573,0.85987 -2.875,1.09766c-1.14337,-0.97415 -2.56385,-1.64258 -4.17578,-1.64258zM30.69336,16.05859c1.31219,0 2.48496,0.54839 3.3125,1.43164c0.23529,0.25178 0.58362,0.3647 0.92188,0.29883c0.15192,-0.02988 0.27395,-0.12662 0.42383,-0.16211c-0.0186,0.01151 -0.03005,0.03172 -0.04883,0.04297c-0.38766,0.23275 -0.57093,0.69665 -0.44701,1.13151c0.12392,0.43485 0.52419,0.73247 0.97631,0.72591c-0.06869,0.05238 -0.1097,0.13498 -0.17969,0.18555c-0.27276,0.19678 -0.42834,0.51748 -0.41406,0.85352c0.0095,0.22425 0.01563,0.44943 0.01563,0.67383c0,3.40515 -1.31425,7.13137 -3.81055,9.96289c-2.4963,2.83152 -6.13477,4.79688 -10.95312,4.79688c-1.65319,0 -3.20853,-0.33031 -4.68945,-0.83203c1.84226,-0.39035 3.58646,-1.04277 5.01563,-2.16406c0.33139,-0.26134 0.46306,-0.70258 0.32907,-1.10279c-0.13399,-0.40021 -0.50478,-0.67323 -0.92673,-0.68236c-1.41565,-0.02571 -2.50594,-0.82641 -3.32031,-1.85937c0.29918,-0.03871 0.60861,-0.0401 0.89453,-0.11914c0.44721,-0.12249 0.75157,-0.5363 0.73529,-0.9997c-0.01628,-0.46339 -0.34895,-0.85482 -0.80365,-0.94562c-1.65141,-0.33328 -2.93961,-1.57189 -3.41211,-3.17383c0.4253,0.10235 0.79795,0.33128 1.25,0.3457c0.44561,0.01365 0.84644,-0.2693 0.98279,-0.69376c0.13635,-0.42445 -0.02471,-0.8879 -0.3949,-1.13632c-1.21974,-0.81562 -2.01953,-2.19701 -2.01953,-3.7793c0,-0.327 0.17547,-0.5869 0.24024,-0.89258c2.8405,2.81186 6.62074,4.67806 10.87695,4.89258c0.31404,0.01574 0.6172,-0.11713 0.81846,-0.35872c0.20126,-0.24159 0.27718,-0.56376 0.20497,-0.8698c-0.07783,-0.32915 -0.11914,-0.67252 -0.11914,-1.03125c0,-2.51852 2.02132,-4.53906 4.54102,-4.53906z"></path></g></g>
-</svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="31" viewBox="0 0 32 31" fill="none">
-          <path d="M31.1924 15.5C31.1924 23.8037 24.4114 30.5408 16.0396 30.5408C7.66772 30.5408 0.886669 23.8037 0.886669 15.5C0.886669 7.1963 7.66772 0.459178 16.0396 0.459178C24.4114 0.459178 31.1924 7.1963 31.1924 15.5Z" stroke="#DFE4F0" stroke-width="0.918357"/>
+      <div className='flex gap-3 max-tablet:m-auto'>
+        <svg className='hover:stroke-[#6C9BFF] cursor-pointer transition duration-300 ease-in-out' xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#07043B" viewBox="0 0 24 24" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <circle cx="12" cy="12" r="3"/>
+          <circle cx="16.5" cy="7.5" r="1"/>
+        </svg>
+        <svg className='hover:stroke-[#6C9BFF] cursor-pointer transition duration-300 ease-in-out' xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#07043B" viewBox="0 0 24 24" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <path d="M16 8h-2V6a1 1 0 0 1 1-1h1V3h-2c-1.65 0-3 1.35-3 3v2H9v3h2v8h3v-8h2l1-3z"/>
+        </svg>
+        <svg className='hover:stroke-[#6C9BFF] cursor-pointer transition duration-300 ease-in-out' xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#07043B" viewBox="0 0 24 24" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <path d="M8 19c7.5 0 11.6-6.2 11.6-11.6v-.5A8.3 8.3 0 0 0 21 5a8 8 0 0 1-2.3.6A4.2 4.2 0 0 0 20.3 4a8.5 8.5 0 0 1-2.7 1A4.2 4.2 0 0 0 12 9a4.6 4.6 0 0 0 .1.9A11.9 11.9 0 0 1 4 5.2a4.2 4.2 0 0 0-.6 2.1A4.2 4.2 0 0 0 6 11a4.2 4.2 0 0 1-1.9-.5c0 1.8 1.3 3.3 3.1 3.6a4 4 0 0 1-1.9.1c.5 1.6 2 2.8 3.7 2.8a8.5 8.5 0 0 1-5.3 1.8"/>
         </svg>
       </div>
     </div>

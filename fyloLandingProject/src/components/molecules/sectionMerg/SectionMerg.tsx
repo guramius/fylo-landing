@@ -14,7 +14,10 @@ const SectionMerg = () => {
           hText="All your files in one secure location, accessible anywhere."
           text="Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers."
         />    
-        <InputElmenets/>        
+        <InputElmenets
+          className="flex gap-4"
+          placeholder="Enter your email…"
+        />        
       </div>
       <div className=" mobile:w-[50%]">
         <ImgBox
@@ -23,7 +26,6 @@ const SectionMerg = () => {
           className=""
         />
       </div>
-
     </div>
   )
 }

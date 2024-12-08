@@ -4,11 +4,12 @@ interface TextContainerProps {
     color?: string;       
     fontSize?: string; 
     fontSizeP?:string;      
+    margin?:string
   }
-const TextContainer = ({text, hText, color, fontSize, fontSizeP}:TextContainerProps) => {
+const TextContainer = ({text, hText, color, fontSize, fontSizeP, margin}:TextContainerProps) => {
   return (
     <>
-        <h1 className={` ${color} ${fontSize}`}>
+        <h1 className={` ${color} ${fontSize} ${margin}`}>
             {hText}
         </h1>
         <p  className={` ${color} ${fontSizeP}`}>

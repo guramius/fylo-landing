@@ -6,7 +6,7 @@ interface ImageComponentsProps {
 const ImgBox = ({src, alt, className}:ImageComponentsProps) => {
   return (
     <>
-      <img src={src} alt={alt} className={`w-full h-auto ${className}`} />
+      <img src={src} alt={alt} className={`${className}`} />
     </>
   )
 }

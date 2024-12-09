@@ -19,10 +19,10 @@ const PopUp = () => {
                 <g filter="url(#filter0_d_0_126)">
                 <circle cx="8" cy="8" r="6" fill="#3DA08F"/>
                 </g>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.58235 6L8.21938 6.35L9.67123 7.75H5.33333V8.25H9.67123L8.21938 9.65L8.58235 10L10.6564 8L8.58235 6Z" fill="white"/>
+                <path fillRule="evenodd" clipRule="evenodd" d="M8.58235 6L8.21938 6.35L9.67123 7.75H5.33333V8.25H9.67123L8.21938 9.65L8.58235 10L10.6564 8L8.58235 6Z" fill="white"/>
                 <defs>
-                <filter id="filter0_d_0_126" x="0" y="0" width="16" height="16" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <filter id="filter0_d_0_126" x="0" y="0" width="16" height="16" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
                 <feOffset/>
                 <feGaussianBlur stdDeviation="1"/>

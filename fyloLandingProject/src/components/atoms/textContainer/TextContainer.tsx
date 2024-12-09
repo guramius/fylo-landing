@@ -1,12 +1,5 @@
-interface TextContainerProps {
-    text: string;         
-    hText: string;        
-    color?: string;       
-    fontSize?: string; 
-    fontSizeP?:string;      
-    margin?:string
-    padding?:string;
-  }
+import TextContainerProps from "../../interface"
+
 const TextContainer = ({text, hText, color, fontSize, fontSizeP, margin, padding}:TextContainerProps) => {
   return (
     <>

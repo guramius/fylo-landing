@@ -1,8 +1,4 @@
-interface ImageComponentsProps {
-    src: string;
-    alt: string;
-    className?:string;
-}
+import ImageComponentsProps from '../../interface'
 const ImgBox = ({src, alt, className}:ImageComponentsProps) => {
   return (
     <>
